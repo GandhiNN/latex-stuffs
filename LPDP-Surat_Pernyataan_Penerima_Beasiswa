@@ -1,0 +1,98 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LPDP - Surat Pernyataan Penerima Beasiswa Magister / Doktor
+% LaTeX Template
+% Version PA1 (10/24/2014)
+%
+% Original author:
+% WikiBooks (http://en.wikibooks.org/wiki/LaTeX/Letters)
+%
+% Modified By:
+% Ngakan Nyoman Gandhi (n.nyoman.gandhi@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%--------------------------------
+% DOCUMENT CONFIGURATIONS
+%--------------------------------
+
+\documentclass[a4paper,11pt]{letter}
+
+\usepackage{times}
+\usepackage{setspace}
+\usepackage[table]{xcolor}
+
+% Margins, Spacing, Layout
+\topmargin=-1in
+\textheight=9in
+\oddsidemargin=-10pt
+\textwidth=7.0in
+
+\onehalfspacing
+
+\makeatletter
+\let\@texttop\relax
+\makeatother
+
+% Set New Column Types
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+% Set Blank Date
+
+\date{} 
+
+%----------------------------------
+% LETTER CONTENT
+%----------------------------------
+
+\begin{document}
+    \pagenumbering{gobble}
+    \signature{\textbf{Ngakan Nyoman Gandhi}} 
+    \begin{letter}{}
+        \begin{center}
+            \Large\textbf{SURAT PERNYATAAN \\
+            PENERIMA BEASISWA MAGISTER / DOKTOR} \\ 
+            \vspace{5mm}
+            \normalsize 
+            \vspace{10mm}
+		\end{center} 
+
+		Yang bertanda tangan di bawah ini saya penerima Program Beasiswa Magister / Doktor*) LPDP,
+
+			\begin{enumerate} 
+    			\item Tidak sedang dan tidak akan menerima bantuan beasiswa Magister / Doktor dari sumber lain baik dalam negeri maupun luar negeri.
+    			\item Berkelakuan baik dan tidak pernah melakukan tindak pidana.
+    			\item Tidak melanggar Kode Etik Akademik.
+    			\item Sanggup mengabdi untuk kepentingan bangsa dan negara setelah menyelesaikan studi.
+    			\item Sanggup menyelesaikan studi Magister / Doktor sesuai dengan waktu yang tentukan.
+    			\item Sanggup membuat laporan perkembangan penyelesaian program Magister / Doktor kepada LPDP.
+			\end{enumerate}
+        
+		\vspace{5mm}
+
+		Menyatakan dengan sesungguhnya bahwa saya : \\
+
+		Demikian surat pernyataan ini dibuat dengan sebenar-benarnya untuk dapat digunakan sebagaimana mestinya.
+
+		\vfill
+
+%--------------------------------------
+% CLOSING LAYOUT
+%--------------------------------------
+
+		{
+		\leftskip = 0pt plus 1 fill
+		\rightskip = 15pt
+		\parindent 0pt
+		\obeylines
+		\closing{Jakarta, 24 Oktober 2014 \\ Yang Membuat Pernyataan}
+		\vspace{5mm}
+		}
+		
+		\end{letter}
+\end{document}
